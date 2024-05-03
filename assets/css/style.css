@@ -1,0 +1,64 @@
+.profile-img {
+    width: 100px;  /* Controla el tamaño */
+    height: 100px;
+    border-radius: 50%;  /* Hace la imagen circular */
+    object-fit: cover;  /* Asegura que la imagen cubra completamente el espacio sin deformarse */
+
+    @media (max-width: 768px) {
+    header, section, footer {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .profile-img {
+        width: 80px;  /* Tamaño más pequeño para dispositivos móviles */
+        height: 80px;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, section, footer {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    color: #333;
+}
+
+/* Estilización de la sección */
+section h2 {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Enlaces */
+a {
+    color: #00f;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
